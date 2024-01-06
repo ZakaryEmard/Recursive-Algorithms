@@ -85,7 +85,7 @@ var invest = function(amount, interestRate, numberOfYears){
   if (numberOfYears <= 0) {
     return amount;
   }
-  var accrument = amount * (interestRate / 100);
+  var accrument = amount   (interestRate / 100);
   return invest(amount + accrument, interestRate, numberOfYears - 1);
 };
 
@@ -215,3 +215,4 @@ olympicSwimmingWinners(10, [
                           'Ryan Lochte',
                           ]);
 
+ 
