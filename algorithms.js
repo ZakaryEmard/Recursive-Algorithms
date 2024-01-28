@@ -76,7 +76,7 @@ var invest = function(amount){
 
 // given a min and a max, both integers, use recursion to console.log all of the
 // integers from the min to the max, and then console.log the numbers from the max
-// to the min. Do not use loops! Use recursion.
+// to the min. Do not use loops  Use recursion.
 
 // ex:
 //    printRangeUpDown(4, 10);
@@ -121,4 +121,4 @@ var binaryTreeSum = function(tree){
 // you'll need to create a binary search tree constructor!
 var arrayToBinarySearchTree = function(array){
 
-};
+}; 
